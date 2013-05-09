@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="ed853ea7-2531-453e-858a-a5b59ceff58e" Version="1.0.0.0" />
+  <Properties>
+    <DisplayName>Pop 'Em All</DisplayName>
+    <Description>Pop the bubbles before they overlap!</Description>
+    <PublisherDisplayName>Daniel Jost</PublisherDisplayName>
+    <Logo>app-storelogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.0</OSMinVersion>
+    <OSMaxVersionTested>6.2.0</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" StartPage="index.html">
+      <VisualElements DisplayName="Pop 'Em All" Logo="app-logo.png" SmallLogo="app-smalllogo.png" Description="Pop the bubbles before they overlap!" ForegroundText="light" BackgroundColor="#464646">
+        <DefaultTile ShowName="allLogos" />
+        <SplashScreen Image="splashscreen.png" />
+      </VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+	
+  </Capabilities>
+</Package>
